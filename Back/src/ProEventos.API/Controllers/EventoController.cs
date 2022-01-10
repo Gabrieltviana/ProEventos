@@ -36,7 +36,7 @@ namespace ProEventos.API.Controllers
         public EventoController()
         {
         }
-
+        
         [HttpGet]
         public IEnumerable<Evento> Get() 
         { 
