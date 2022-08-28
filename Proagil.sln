@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{0C301801-8D22-4E2A-A68A-0C7F772701B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{034CCD17-7AC9-4F3A-85C7-11E5C7AF54CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProEventos.API", "Back\src\ProEventos.API\ProEventos.API.csproj", "{904466E1-4564-46BB-8014-BF25CB970BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|x64.Build.0 = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Debug|x86.Build.0 = Debug|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|x64.ActiveCfg = Release|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|x64.Build.0 = Release|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|x86.ActiveCfg = Release|Any CPU
+		{904466E1-4564-46BB-8014-BF25CB970BCD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{034CCD17-7AC9-4F3A-85C7-11E5C7AF54CE} = {0C301801-8D22-4E2A-A68A-0C7F772701B6}
+		{904466E1-4564-46BB-8014-BF25CB970BCD} = {034CCD17-7AC9-4F3A-85C7-11E5C7AF54CE}
+	EndGlobalSection
+EndGlobal
